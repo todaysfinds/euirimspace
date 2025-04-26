@@ -11732,3 +11732,61 @@ html {
     left: -2vw;
   }
 }
+
+
+@media (min-width: 768px) {
+  .timeline {
+    position: relative;
+    padding: 2rem 0;
+  }
+  .timeline::before {
+    content: "";
+    position: absolute;
+    top: 30px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: #ccc;
+    z-index: 0;
+  }
+}
+
+/* styles.css */
+.circle {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  margin: 0 auto 0.5rem;
+}
+/* 빈 원 전용 */
+.circle-outline {
+  background: transparent;
+  border: 2px solid var(--bs-primary);
+}
+/* 툴팁 기본: 안 보이도록 */
+.tooltip {
+  position: absolute;
+  bottom: 120%;           /* 원 위쪽에 위치 */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0,0,0,0.75);
+  color: #fff;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  white-space: nowrap;
+  font-size: 0.75rem;
+
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s ease;
+}
+
+/* hover 시 보이도록 */
+.timeline-item .position-relative:hover .tooltip {
+  opacity: 1;
+  visibility: visible;
+}
+
+.btn-fixed {
+  width: 140px; /* 원하는 크기로 조절 가능 */
+}
