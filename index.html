@@ -188,65 +188,91 @@
                   <h2 class="fw-bolder text-center mb-5">Timeline</h2>
                   <div class="timeline d-flex flex-column flex-md-row justify-content-between">
               
-                    <!-- 음악 발매 (링크 + 채워진 원 + 툴팁) -->
+                    <!-- 1. 걱정인형 발매 (채워진 원 + 팝오버 + 링크) -->
                     <div class="text-center mb-4 mb-md-0 timeline-item">
-                      <a href="https://www.youtube.com/watch?v=F3P9jXkRHE4" target="_blank"
-                         class="position-relative d-inline-block text-decoration-none text-dark">
-                        <div class="circle bg-primary mb-2"></div>
-                        <div class="tooltip">(2019)<br>첫 싱글 ‘걱정인형’ 발매<br>도연이가 홍보 열심히 하고<br>채널A 송출돼서 좋아요 혼자 많음</div>
-                        <div>음원 발매</div>
-                      </a>
-                    </div>
-              
-                    <!-- 음악 스튜디오 (비링크 + 빈 원 + 툴팁) -->
-                    <div class="text-center mb-4 mb-md-0 timeline-item">
-                      <div class="position-relative d-inline-block">
-                        <div class="circle circle-outline mb-2"></div>
-                        <div class="tooltip">(2021~2022)<br>'방이 엉망이네'부터 기타 세션 맡아주신<br>이기현 음악감독님 스튜디오에서 일했다</div>
+                        <div class="position-relative d-inline-block text-dark">
+                            <div class="circle bg-primary mb-2"
+                            data-bs-toggle="popover"
+                            data-bs-html="true"
+                            data-bs-content="(2019)<br>첫 싱글 '걱정인형' 발매.<br>채널A 캠페인송으로 쓰임.<br><br><a href='https://www.youtube.com/watch?v=F3P9jXkRHE4' target='_blank' class='btn btn-primary btn-sm mt-2'>YouTube</a>"
+                            data-bs-trigger="click"
+                            tabindex="0">
+                        </div>                        
+                          <div>첫 음원 발매</div>
+                        </div>
                       </div>
-                      <div>음악 스튜디오</div>
+                                            
+              
+                    <!-- 2. 음악 스튜디오 (빈 원 + 텍스트만) -->
+                    <div class="text-center mb-4 mb-md-0 timeline-item">
+                        <div class="position-relative d-inline-block text-dark">
+                        <div class="circle circle-outline mb-2"
+                            data-bs-toggle="popover"
+                            data-bs-html="true"
+                            data-bs-content="(2021~2022)<br>'방이 엉망이네'부터 기타 세션 맡아주신<br>이기현 음악감독님 스튜디오에서 일했다"
+                            data-bs-trigger="click"
+                            tabindex="0">
+                        </div>
+                        <div>음악 스튜디오</div>
+                        </div>
                     </div>
 
-                    <!-- 마지막 음악 발매 (링크 + 채워진 원 + 툴팁) -->
+                    <!-- 3. 19th 싱글 발매 (채워진 원 + 링크) -->
                     <div class="text-center mb-4 mb-md-0 timeline-item">
-                        <a href="https://www.youtube.com/watch?v=bY3tRgAVA7Y" target="_blank"
-                           class="position-relative d-inline-block text-decoration-none text-dark">
-                          <div class="circle bg-primary mb-2"></div>
-                          <div class="tooltip">(2023)<br>19번째 싱글 ‘Emptiness & Filling’<br>'나는 우물'과 '허무함이 있기에'<br>
-                            다음은 언제가 될지 모르겠다</div>
-                          <div>마지막 음원 발매</div>
-                        </a>
-                      </div>                    
-              
-                    <!-- 영상 PD (비링크 + 빈 원 + 툴팁) -->
+                        <div class="position-relative d-inline-block text-dark">
+                        <div class="circle bg-primary mb-2"
+                            data-bs-toggle="popover"
+                            data-bs-html="true"
+                            data-bs-content="(2023)<br>19번째 싱글 'Emptiness & Filling'<br>'나는 우물'과 '허무함이 있기에' 수록<br><br><a href='https://www.youtube.com/watch?v=bY3tRgAVA7Y' target='_blank' class='btn btn-sm btn-primary mt-2'>YouTube</a>"
+                            data-bs-trigger="click"
+                            tabindex="0">
+                        </div>
+                        <div>19th 싱글 발매</div>
+                        </div>
+                    </div>                 
+                                
+                    <!-- 4. 영상 PD (빈 원 + 텍스트만) -->
                     <div class="text-center mb-4 mb-md-0 timeline-item">
-                      <div class="position-relative d-inline-block">
-                        <div class="circle circle-outline mb-2"></div>
-                        <div class="tooltip">(2022~2024)<br>[Wacompany 근무] 강의부터 유튜브까지<br>회사 생활도 괜찮을 수 있다는 걸 알게 됐다</div>
-                      </div>
-                      <div>영상 PD</div>
+                        <div class="position-relative d-inline-block text-dark">
+                        <div class="circle circle-outline mb-2"
+                            data-bs-toggle="popover"
+                            data-bs-html="true"
+                            data-bs-content="(2022~2024)<br>[Wacompany 근무] 강의부터 유튜브까지<br>회사 생활도 괜찮을 수 있다는 걸 알게 됐다"
+                            data-bs-trigger="click"
+                            tabindex="0">
+                        </div>
+                        <div>영상 PD</div>
+                        </div>
                     </div>
-            
-                    <!-- 독서모임 (링크 + 채워진 원 + 툴팁) -->
+                    
+                    <!-- 5. 독서모임 운영 (채워진 원 + 링크) -->
                     <div class="text-center mb-4 mb-md-0 timeline-item">
-                      <a href="reading.html" target="_blank"
-                         class="position-relative d-inline-block text-decoration-none text-dark">
-                        <div class="circle bg-primary mb-2"></div>
-                        <div class="tooltip">(2024.9.21~)<br>적성에 맞는 취미생활<br>덕분에 꾸준히 블로그 글 올렸고<br>브런치 작가까지 통과</div>
+                        <div class="position-relative d-inline-block text-dark">
+                        <div class="circle bg-primary mb-2"
+                            data-bs-toggle="popover"
+                            data-bs-html="true"
+                            data-bs-content="(2024.9.21~)<br>적성에 맞는 취미생활<br>블로그 꾸준히 올리고<br>브런치 작가 통과<br><a href='reading.html' target='_blank' class='btn btn-sm btn-primary mt-2'>자세히 보기</a>"
+                            data-bs-trigger="click"
+                            tabindex="0">
+                        </div>
                         <div>독서모임 운영</div>
-                      </a>
+                        </div>
                     </div>
-              
-                    <!-- 브런치 연재 (링크 + 채워진 원 + 툴팁) -->
+                    
+                    <!-- 6. 브런치 연재 (채워진 원 + 링크) -->
                     <div class="text-center mb-4 mb-md-0 timeline-item">
-                      <a href="https://brunch.co.kr/brunchbook/hspstory" target="_blank"
-                         class="position-relative d-inline-block text-decoration-none text-dark">
-                        <div class="circle bg-primary mb-2"></div>
-                        <div class="tooltip">(2025.4)<br><예민함 연대기> 연재<br>독자를 의식하고 쓰는 첫 글</div>
+                        <div class="position-relative d-inline-block text-dark">
+                        <div class="circle bg-primary mb-2"
+                            data-bs-toggle="popover"
+                            data-bs-html="true"
+                            data-bs-content="(2025.4)<br>&lt;예민함 연대기&gt; 연재<br>독자를 의식하고 쓰는 첫 글<br><a href='https://brunch.co.kr/brunchbook/hspstory' target='_blank' class='btn btn-sm btn-primary mt-2'>연재 보기</a>"
+                            data-bs-trigger="click"
+                            tabindex="0">
+                        </div>
                         <div>브런치 연재</div>
-                      </a>
+                        </div>
                     </div>
-
+                    
                   </div>
                 </div>
               </section>
@@ -259,7 +285,7 @@
                             <div class="text-center my-5">
                                 <h2 class="display-5 fw-bolder"><span class="text-gradient d-inline">Hello</span></h2>
                                 <p class="lead fw-light mb-4">의림 또는 발견씨입니다</p>
-                                <p class="text-muted">제가 살아온 흔적을 정리해 뒀어요<br>사랑하는 사람에게 보여주고 싶어요<br>AI 서비스 개발자가 목표<br>웹사이트부터 차근차근 하는 중</p>
+                                <p class="text-muted">제가 살아온 흔적을 정리해 뒀어요<br>AI 서비스 개발자가 목표<br>웹사이트부터 차근차근 하는 중</p>
                                 <div class="d-flex justify-content-center fs-2 gap-4">
                                     <a class="text-gradient" href="#!"><i class="bi bi-youtube"></i></a>
                                     <a class="text-gradient" href="#!"><i class="bi bi-instagram"></i></a>
@@ -282,9 +308,35 @@
                 </div>
             </div>
         </footer>
-        <!-- Bootstrap core JS-->
+
+        <!-- (1) Bootstrap core JS -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
+
+        <!-- (2) Popover 초기화 (모든 popover 활성화) -->
+        <script>
+        const popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'));
+        const popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+        return new bootstrap.Popover(popoverTriggerEl, {
+            sanitize: false
+        });
+        });
+        </script>
+
+        <!-- (3) 클릭할 때 다른 popover 닫기 -->
+        <script>
+        document.addEventListener('click', function (e) {
+            popoverTriggerList.forEach(function (el) {
+                const popover = bootstrap.Popover.getInstance(el);
+                if (popover && el !== e.target && !el.contains(e.target)) {
+                    popover.hide();
+                }
+            });
+        });
+        </script>
+
+        <!-- (4) Core theme JS -->
         <script src="js/scripts.js"></script>
+
+
     </body>
 </html>
