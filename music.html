@@ -176,7 +176,7 @@
 
                         <!-- Favorite Section-->
                         <section>
-                            <h2 class="text-secondary fw-bolder mb-4">Cover</h2>
+                            <h2 class="text-secondary fw-bolder mb-4">Covers</h2>
                             <!-- Card 1-->
                             <div class="card shadow border-0 rounded-4 mb-5">
                                 <div class="card-body p-5">
@@ -200,46 +200,219 @@
                                 </div>
                             </div>
                         <!-- Divider-->
-                        <div class="pb-5"></div>
-                        <!-- Other Songs Section-->
-                        <section>
-                            <!-- Other Songs Card-->
-                            <div class="card shadow border-0 rounded-4 mb-5">
-                                <div class="card-body p-5">
-                                    <!-- Other Songs list-->                                
-                                    <div class="mb-5">
-                                        <div class="d-flex align-items-center mb-4">
-                                            <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3"><i class="bi bi-vinyl-fill"></i></div>
-                                            <h3 class="fw-bolder mb-0"><span class="text-gradient d-inline">Other Songs</span></h3>
-                                        </div>
+                        <div class="pb-4"></div>
+                    
 
-                                        <div class="row row-cols-1">
-                                            <div class="col mb-4">
-                                              <div class="d-flex align-items-center bg-light rounded-4 p-3 h-100 justify-content-between">
+                        <!-- Other Songs Section -->
+                        <section>
+                            <div class="card-body p-0">
+                                <div class="mb-5">
+                                    <div class="d-flex align-items-center" style="margin-bottom: 2rem;">
+                                        <div class="feature bg-primary bg-gradient-primary-to-secondary text-white rounded-3 me-3">
+                                            <i class="bi bi-vinyl-fill"></i>
+                                        </div>
+                                        <h3 class="fw-bolder mb-0"><span class="text-gradient d-inline">Other Songs</span></h3>
+                                    </div>
+
+                                    <!-- 2019 연도별 토글 버튼 -->
+                                <div style="margin-bottom: 1.5rem;"> 
+
+                                    <div class="year-toggle d-flex align-items-center mb-3" onclick="toggleSongs('songs-2019', this)">
+                                        <i class="bi bi-caret-right-fill me-2 toggle-icon"></i>
+                                        <h4 class="mb-0">2019년</h4>
+                                      </div>
+
+
+                                    <!-- 2019년 곡 리스트 (기본 열림) -->
+                                    <div id="songs-2019" class="row row-cols-1" style="margin-top: 1.5rem; margin-bottom: 2rem; display: none;">
+
+                                        <div class="col mb-4">
+                                            <div class="d-flex align-items-center bg-light rounded-4 p-4 h-100 justify-content-between shadow">
                                                 <div>
-                                                  <div class="fw-bold">걱정인형</div>
-                                                  <div class="small text-muted">첫 싱글 / 채널A 캠페인송</div>
+                                                    <div class="fw-bold">걱정인형</div>
+                                                    <div class="small text-muted">걱정일랑 내게 맡기고 잠에 들어요</div>
                                                 </div>
-                                                <a class="btn btn-primary btn-sm" href="유튜브링크" target="_blank">
-                                                    <i class="bi bi-youtube"></i></a>
+                                                <a class="btn btn-primary btn-sm" href="https://www.youtube.com/watch?v=F3P9jXkRHE4&list=PLoxFtQ-X4cnwyMCN1Ga3ZQaWE7stfowP7&index=1" target="_blank">
+                                                    <i class="bi bi-youtube"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="col mb-4">
+                                            <div class="d-flex align-items-center bg-light rounded-4 p-4 h-100 justify-content-between shadow">
+                                                <div>
+                                                    <div class="fw-bold">Yellow</div>
+                                                    <div class="small text-muted">그 옷은 날 가리지만 다들 좋아해 줘
+                                                    </div>
+                                                </div>
+                                                <a class="btn btn-primary btn-sm" href="https://www.youtube.com/watch?v=yXpdVEpDHyE&list=PLoxFtQ-X4cnwyMCN1Ga3ZQaWE7stfowP7&index=2" target="_blank">
+                                                    <i class="bi bi-youtube"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+
+
+                                    <!-- 2020 연도별 토글 버튼 -->
+                                    <div class="year-toggle d-flex align-items-center mb-3" onclick="toggleSongs('songs-2020', this)">
+                                        <i class="bi bi-caret-right-fill me-2 toggle-icon"></i>
+                                        <h4 class="mb-0">2020년</h4>
+                                      </div>
+
+                                    <!-- 2020년 곡 리스트 (기본 열림) -->
+                                    <div id="songs-2020" class="row row-cols-1" style="margin-top: 1.5rem; display: none;">
+                                        
+                                        
+
+                                        <div class="col mb-4">
+                                            <div class="d-flex align-items-center bg-light rounded-4 p-4 h-100 justify-content-between shadow">
+                                              <div>
+                                                <div class="fw-bold">None</div>
+                                                <div class="small text-muted">옅은 외로움이 온 세상 가득해</div>
                                               </div>
+                                              <a class="btn btn-primary btn-sm" href="https://www.youtube.com/watch?v=7mY7kr4_gAI&list=PLoxFtQ-X4cnwyMCN1Ga3ZQaWE7stfowP7&index=3" target="_blank">
+                                                  <i class="bi bi-youtube"></i></a>
                                             </div>
                                           </div>
-                                          
-                                        <div class="row row-cols-1 row-cols-md-3 mb-4">
-                                            <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">SEO/SEM Marketing</div></div>
-                                            <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Statistical Analysis</div></div>
-                                            <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Web Development</div></div>
+                                        
+                                        <div class="col mb-4">
+                                          <div class="d-flex align-items-center bg-light rounded-4 p-4 h-100 justify-content-between shadow">
+                                            <div>
+                                              <div class="fw-bold">사랑은 나를</div>
+                                              <div class="small text-muted">사랑은 나를 어리석게 해</div>
+                                            </div>
+                                            <a class="btn btn-primary btn-sm" href="https://www.youtube.com/watch?v=Nc2tLQ3gc-Y&list=PLoxFtQ-X4cnwyMCN1Ga3ZQaWE7stfowP7&index=4" target="_blank">
+                                                <i class="bi bi-youtube"></i></a>
+                                          </div>
                                         </div>
-                                        <div class="row row-cols-1 row-cols-md-3">
-                                            <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Network Security</div></div>
-                                            <div class="col mb-4 mb-md-0"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">Adobe Software Suite</div></div>
-                                            <div class="col"><div class="d-flex align-items-center bg-light rounded-4 p-3 h-100">User Interface Design</div></div>
+
+                                        <div class="col mb-4">
+                                          <div class="d-flex align-items-center bg-light rounded-4 p-4 h-100 justify-content-between shadow">
+                                            <div>
+                                              <div class="fw-bold">Corgi</div>
+                                              <div class="small text-muted">원하는 거 다 해 줄게 내가 원하는 건 너니까</div>
+                                            </div>
+                                            <a class="btn btn-primary btn-sm" href="https://www.youtube.com/watch?v=3kW5_0tsc58&list=PLoxFtQ-X4cnwyMCN1Ga3ZQaWE7stfowP7&index=5" target="_blank">
+                                                <i class="bi bi-youtube"></i></a>
+                                          </div>
                                         </div>
+
+                                        <div class="col mb-4">
+                                          <div class="d-flex align-items-center bg-light rounded-4 p-4 h-100 justify-content-between shadow">
+                                            <div>
+                                              <div class="fw-bold">있는 그대로</div>
+                                              <div class="small text-muted">봄의 너는 어여쁜 벚꽃 같아</div>
+                                            </div>
+                                            <a class="btn btn-primary btn-sm" href="https://www.youtube.com/watch?v=AAPBV5gZk1I&list=PLoxFtQ-X4cnwyMCN1Ga3ZQaWE7stfowP7&index=6" target="_blank">
+                                                <i class="bi bi-youtube"></i></a>
+                                          </div>
+                                        </div>
+
+                                        <div class="col mb-4">
+                                          <div class="d-flex align-items-center bg-light rounded-4 p-4 h-100 justify-content-between shadow">
+                                            <div>
+                                              <div class="fw-bold">Where Is</div>
+                                              <div class="small text-muted">그저 착각 속에 살아온 것인가</div>
+                                            </div>
+                                            <a class="btn btn-primary btn-sm" href="https://www.youtube.com/watch?v=Gyhw1HKyETY&list=PLoxFtQ-X4cnwyMCN1Ga3ZQaWE7stfowP7&index=7" target="_blank">
+                                                <i class="bi bi-youtube"></i></a>
+                                          </div>
+                                        </div>
+
+                                        <div class="col mb-4">
+                                          <div class="d-flex align-items-center bg-light rounded-4 p-4 h-100 justify-content-between shadow">
+                                            <div>
+                                              <div class="fw-bold">너를 나를 그리고</div>
+                                              <div class="small text-muted">모두 알려고 하는 건 내 욕심이야</div>
+                                            </div>
+                                            <a class="btn btn-primary btn-sm" href="https://www.youtube.com/watch?v=lz6yL030OA0&list=PLoxFtQ-X4cnwyMCN1Ga3ZQaWE7stfowP7&index=8" target="_blank">
+                                                <i class="bi bi-youtube"></i></a>
+                                          </div>
+                                        </div>
+
+                                        <div class="col mb-4">
+                                            <div class="d-flex align-items-center bg-light rounded-4 p-4 h-100 justify-content-between shadow">
+                                              <div>
+                                                <div class="fw-bold">Growing Heart</div>
+                                                <div class="small text-muted">다시 중심을 잡고 나아갈 거야</div>
+                                              </div>
+                                              <a class="btn btn-primary btn-sm" href="https://www.youtube.com/watch?v=EYRCZUXiCRk&list=PLoxFtQ-X4cnwyMCN1Ga3ZQaWE7stfowP7&index=9" target="_blank">
+                                                  <i class="bi bi-youtube"></i></a>
+                                            </div>
+                                          </div>
+
+                                          <div class="col mb-4">
+                                            <div class="d-flex align-items-center bg-light rounded-4 p-4 h-100 justify-content-between shadow">
+                                              <div>
+                                                <div class="fw-bold">여전히</div>
+                                                <div class="small text-muted">잘 지내길 바라지만 보고 싶진 않아</div>
+                                              </div>
+                                              <a class="btn btn-primary btn-sm" href="https://www.youtube.com/watch?v=_iagCARjgAI&list=PLoxFtQ-X4cnwyMCN1Ga3ZQaWE7stfowP7&index=10" target="_blank">
+                                                  <i class="bi bi-youtube"></i></a>
+                                            </div>
+                                          </div>
+
+                                          <div class="col mb-4">
+                                            <div class="d-flex align-items-center bg-light rounded-4 p-4 h-100 justify-content-between shadow">
+                                              <div>
+                                                <div class="fw-bold">안녕</div>
+                                                <div class="small text-muted">초라함이 너를 낮춘다는 걸 알았어</div>
+                                              </div>
+                                              <a class="btn btn-primary btn-sm" href="https://www.youtube.com/watch?v=EU9cVlY-Taw&list=PLoxFtQ-X4cnwyMCN1Ga3ZQaWE7stfowP7&index=11" target="_blank">
+                                                  <i class="bi bi-youtube"></i></a>
+                                            </div>
+                                          </div>
+                                          <div class="col mb-4">
+                                            <div class="d-flex align-items-center bg-light rounded-4 p-4 h-100 justify-content-between shadow">
+                                              <div>
+                                                <div class="fw-bold">Dear</div>
+                                                <div class="small text-muted">모두 다 주고 사랑한 그대여</div>
+                                              </div>
+                                              <a class="btn btn-primary btn-sm" href="https://www.youtube.com/watch?v=qFT1KqTnVv0&list=PLoxFtQ-X4cnwyMCN1Ga3ZQaWE7stfowP7&index=12" target="_blank">
+                                                  <i class="bi bi-youtube"></i></a>
+                                            </div>
+                                          </div>
+
+                                          <div class="col mb-4">
+                                            <div class="d-flex align-items-center bg-light rounded-4 p-4 h-100 justify-content-between shadow">
+                                              <div>
+                                                <div class="fw-bold">Christmas For You</div>
+                                                <div class="small text-muted">크리스마스가 되게 해줄게요</div>
+                                              </div>
+                                              <a class="btn btn-primary btn-sm" href="https://www.youtube.com/watch?v=bE7JxvPzZVY&list=PLoxFtQ-X4cnwyMCN1Ga3ZQaWE7stfowP7&index=13" target="_blank">
+                                                  <i class="bi bi-youtube"></i></a>
+                                            </div>
+                                          </div>
+
+                                          <div class="col mb-4">
+                                            <div class="d-flex align-items-center bg-light rounded-4 p-4 h-100 justify-content-between shadow">
+                                              <div>
+                                                <div class="fw-bold">니가 아니면</div>
+                                                <div class="small text-muted">너의 자리를 대신할 사람은 없어</div>
+                                              </div>
+                                              <a class="btn btn-primary btn-sm" href="https://www.youtube.com/watch?v=EL3dpDImW7Q&list=PLoxFtQ-X4cnwyMCN1Ga3ZQaWE7stfowP7&index=14" target="_blank">
+                                                  <i class="bi bi-youtube"></i></a>
+                                            </div>
+                                          </div>
+
+
+
+                                    </div>
+
+                                        <!-- 이하 생략, 그대로 추가 -->
+
+
+
+
                                     </div>
                                 </div>
                             </div>
                         </section>
+
+
+
+
                     </div>
                 </div>
             </div>
@@ -258,6 +431,23 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+        <script>
+            function toggleSongs(id, toggleElement) {
+              const target = document.getElementById(id);
+              const icon = toggleElement.querySelector(".toggle-icon");
+            
+              if (target.style.display === "none") {
+                target.style.display = "block";
+                icon.classList.remove("bi-caret-right-fill");
+                icon.classList.add("bi-caret-down-fill");
+              } else {
+                target.style.display = "none";
+                icon.classList.remove("bi-caret-down-fill");
+                icon.classList.add("bi-caret-right-fill");
+              }
+            }
+            </script>
+            
     </body>
 </html>
 
